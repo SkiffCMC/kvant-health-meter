@@ -1,0 +1,28 @@
+{
+  "name": "kvant-health-meter",
+  "version": "1.0.0",
+  "description": "Monitor for kvant nodes status",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "kvant",
+    "monitor"
+  ],
+  "author": "skiffcmc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.3.1",
+    "crypto-js": "^4.0.0",
+    "lodash.isequal": "^4.5.0",
+    "moment": "^2.24.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "smtp-server": "^3.6.0",
+    "socks5-https-client": "^1.2.1",
+    "winston": "^3.2.1",
+    "winston-mail": "^2.0.0"
+  }
+}

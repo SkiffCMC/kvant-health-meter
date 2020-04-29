@@ -1,0 +1,23 @@
+{
+	"loggers": {
+		"file": {
+			"level": "debug"
+		},
+		/*"mail": {
+			"level": "info",
+			"subject": "Критичная ошибка- DEV"
+		},*/
+		"console": {
+			"level": "debug",
+			"handleExceptions": true,
+			"json": true,
+			"colorize": {
+				"all": true,
+				"colors": {
+					"info": "green",
+					"error": "red"
+				}
+			}
+		}
+	}
+}
